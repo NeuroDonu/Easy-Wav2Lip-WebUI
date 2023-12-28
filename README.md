@@ -26,9 +26,9 @@
 ### Для более простого использования можете воспользоваться Colab:
 
 ### Google Colab:
-[https://colab.research.google.com/github/NeuroDonu/Easy-Wav2Lip/blob/main/Easy_Wav2Lip_WebUI.ipynb](https://colab.research.google.com/github/NeuroDonu/Easy-Wav2Lip/blob/main/Easy_Wav2Lip_WebUI.ipynb)
+[https://colab.research.google.com/github/NeuroDonu/Easy-Wav2Lip/blob/main/Easy_Wav2Lip_WebUI.ipynb](https://github.com/NeuroDonu/Easy-Wav2Lip-WebUI/blob/main/Easy_Wav2Lip_WebUI.ipynb)
 
-[![Открыть в Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NeuroDonu/Easy-Wav2Lip/blob/main/Easy_Wav2Lip_WebUI.ipynb)
+[![Открыть в Colab]([https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/NeuroDonu/Easy-Wav2Lip-WebUI/blob/main/Easy_Wav2Lip_WebUI.ipynb)
 
 ## Инструкции по установке можете найти также в оригинальном репозитории 
 ### Почитать можно тут:
