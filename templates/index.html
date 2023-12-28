@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+    <title>Easy-Wav2Lip</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container py-5">
+        <h2 class="text-center mb-4">Easy-Wav2Lip WebUI by <a href="https://github.com/NeuroDonu">NeuroDonu</a></h2>
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <div class="card shadow">
+                    <div class="card-body">
+                        <form method="POST" enctype="multipart/form-data" onsubmit="showMessage()">
+                            <div class="form-group">
+                                <label>Загрузить видео</label>
+                                <input type="file" name="video" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label>Загрузить аудио</label>
+                                <input type="file" name="audio" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label>Качество</label>
+                                <select name="quality" class="form-control">
+                                    <option value="Fast">Быстро</option>
+                                    <option value="Improved">Улучшенно</option>
+                                    <option value="Enhanced">Расширенно</option>
+                                    <option value="Experimental">Экспериментально</option>
+                                </select>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block">Обработать</button>
+                        </form>
+                        {% if output_file %}
+                        <div class="alert alert-success mt-3">
+                            <p>Обработка завершена! Вы можете скачать обработанный файл по ссылке ниже:</p>
+                            <a href="{{ output_file }}">Скачать обработанный файл.</a>
+                        </div>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
